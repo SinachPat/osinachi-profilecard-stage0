@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdfdf;
+    padding: 20px;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px dotted #dcdcdc;
+    /* outline: 4px solid white; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.full-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 15px 0 5px;
+}
+
+.job-title {
+    color: #666;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.info-item svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: #666;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #1a1a1a;
+}
+
+.time-utc {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #666;
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 20px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    .full-name {
+        font-size: 20px;
+    }
+
+    .job-title {
+        font-size: 16px;
+    }
+}
