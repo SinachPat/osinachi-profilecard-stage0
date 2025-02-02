@@ -10,12 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #dfdfdf;
+    background-color: #d42aff;
     padding: 20px;
 }
 
-.profile-card {
-    background: white;
+.color-box {
+    background: #fefaff;
+    border: 8px solid #530068;
     border-radius: 20px;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     padding: 30px;
